@@ -28,76 +28,77 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
+            this.btnLlamar = new System.Windows.Forms.Button();
+            this.btnColgar = new System.Windows.Forms.Button();
+            this.lblConect = new System.Windows.Forms.Label();
+            this.lblunheard = new System.Windows.Forms.Label();
+            this.lblBusy = new System.Windows.Forms.Label();
+            this.lblDisconect = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // button1
+            // btnLlamar
             // 
-            this.button1.Location = new System.Drawing.Point(423, 12);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 54);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Llamar";
-            this.button1.UseVisualStyleBackColor = true;
+            this.btnLlamar.Location = new System.Drawing.Point(423, 12);
+            this.btnLlamar.Name = "btnLlamar";
+            this.btnLlamar.Size = new System.Drawing.Size(75, 54);
+            this.btnLlamar.TabIndex = 0;
+            this.btnLlamar.Text = "Llamar";
+            this.btnLlamar.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // btnColgar
             // 
-            this.button2.Location = new System.Drawing.Point(423, 74);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 54);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnColgar.Location = new System.Drawing.Point(423, 74);
+            this.btnColgar.Name = "btnColgar";
+            this.btnColgar.Size = new System.Drawing.Size(75, 54);
+            this.btnColgar.TabIndex = 1;
+            this.btnColgar.Text = "Colgar";
+            this.btnColgar.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // lblConect
             // 
-            this.label1.Location = new System.Drawing.Point(-1, 105);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(100, 23);
-            this.label1.TabIndex = 2;
-            this.label1.Text = "Conectado";
-            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblConect.Location = new System.Drawing.Point(-1, 105);
+            this.lblConect.Name = "lblConect";
+            this.lblConect.Size = new System.Drawing.Size(100, 23);
+            this.lblConect.TabIndex = 2;
+            this.lblConect.Text = "Conectado";
+            this.lblConect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label2
+            // lblunheard
             // 
-            this.label2.Location = new System.Drawing.Point(317, 105);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(100, 23);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Ignorado";
-            this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblunheard.Location = new System.Drawing.Point(317, 105);
+            this.lblunheard.Name = "lblunheard";
+            this.lblunheard.Size = new System.Drawing.Size(100, 23);
+            this.lblunheard.TabIndex = 3;
+            this.lblunheard.Text = "Ignorado";
+            this.lblunheard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label3
+            // lblBusy
             // 
-            this.label3.Location = new System.Drawing.Point(211, 105);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(100, 23);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Ocupado";
-            this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblBusy.Location = new System.Drawing.Point(211, 105);
+            this.lblBusy.Name = "lblBusy";
+            this.lblBusy.Size = new System.Drawing.Size(100, 23);
+            this.lblBusy.TabIndex = 4;
+            this.lblBusy.Text = "Ocupado";
+            this.lblBusy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label4
+            // lblDisconect
             // 
-            this.label4.Location = new System.Drawing.Point(105, 105);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(100, 23);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Desconectado";
-            this.label4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.label4.Click += new System.EventHandler(this.label4_Click);
+            this.lblDisconect.Location = new System.Drawing.Point(105, 105);
+            this.lblDisconect.Name = "lblDisconect";
+            this.lblDisconect.Size = new System.Drawing.Size(100, 23);
+            this.lblDisconect.TabIndex = 5;
+            this.lblDisconect.Text = "Desconectado";
+            this.lblDisconect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblDisconect.Click += new System.EventHandler(this.label4_Click);
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 60);
+            this.textBox1.Location = new System.Drawing.Point(12, 46);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(384, 20);
             this.textBox1.TabIndex = 6;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
             // 
             // Form1
             // 
@@ -105,14 +106,14 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(528, 156);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.lblDisconect);
+            this.Controls.Add(this.lblBusy);
+            this.Controls.Add(this.lblunheard);
+            this.Controls.Add(this.lblConect);
+            this.Controls.Add(this.btnColgar);
+            this.Controls.Add(this.btnLlamar);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "SoftPhone";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -120,12 +121,12 @@
 
         #endregion
 
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button btnLlamar;
+        private System.Windows.Forms.Button btnColgar;
+        private System.Windows.Forms.Label lblConect;
+        private System.Windows.Forms.Label lblunheard;
+        private System.Windows.Forms.Label lblBusy;
+        private System.Windows.Forms.Label lblDisconect;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
