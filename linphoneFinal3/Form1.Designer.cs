@@ -28,92 +28,238 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnLlamar = new System.Windows.Forms.Button();
-            this.btnColgar = new System.Windows.Forms.Button();
-            this.lblConect = new System.Windows.Forms.Label();
-            this.lblunheard = new System.Windows.Forms.Label();
-            this.lblBusy = new System.Windows.Forms.Label();
-            this.lblDisconect = new System.Windows.Forms.Label();
+            this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.button13 = new System.Windows.Forms.Button();
+            this.button14 = new System.Windows.Forms.Button();
+            this.button16 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.flowLayoutPanel1.SuspendLayout();
+            this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
             // 
-            // btnLlamar
+            // richTextBox1
             // 
-            this.btnLlamar.Location = new System.Drawing.Point(423, 12);
-            this.btnLlamar.Name = "btnLlamar";
-            this.btnLlamar.Size = new System.Drawing.Size(75, 54);
-            this.btnLlamar.TabIndex = 0;
-            this.btnLlamar.Text = "Llamar";
-            this.btnLlamar.UseVisualStyleBackColor = true;
+            this.richTextBox1.Location = new System.Drawing.Point(12, 30);
+            this.richTextBox1.Name = "richTextBox1";
+            this.richTextBox1.Size = new System.Drawing.Size(399, 96);
+            this.richTextBox1.TabIndex = 0;
+            this.richTextBox1.Text = "";
+            this.richTextBox1.TextChanged += new System.EventHandler(this.richTextBox1_TextChanged);
             // 
-            // btnColgar
+            // flowLayoutPanel1
             // 
-            this.btnColgar.Location = new System.Drawing.Point(423, 74);
-            this.btnColgar.Name = "btnColgar";
-            this.btnColgar.Size = new System.Drawing.Size(75, 54);
-            this.btnColgar.TabIndex = 1;
-            this.btnColgar.Text = "Colgar";
-            this.btnColgar.UseVisualStyleBackColor = true;
+            this.flowLayoutPanel1.Controls.Add(this.button1);
+            this.flowLayoutPanel1.Controls.Add(this.button2);
+            this.flowLayoutPanel1.Controls.Add(this.button3);
+            this.flowLayoutPanel1.Controls.Add(this.button4);
+            this.flowLayoutPanel1.Controls.Add(this.button5);
+            this.flowLayoutPanel1.Controls.Add(this.button6);
+            this.flowLayoutPanel1.Controls.Add(this.button7);
+            this.flowLayoutPanel1.Controls.Add(this.button8);
+            this.flowLayoutPanel1.Controls.Add(this.button9);
+            this.flowLayoutPanel1.Controls.Add(this.button10);
+            this.flowLayoutPanel1.Controls.Add(this.button11);
+            this.flowLayoutPanel1.Controls.Add(this.button12);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(12, 149);
+            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(246, 271);
+            this.flowLayoutPanel1.TabIndex = 1;
             // 
-            // lblConect
+            // button1
             // 
-            this.lblConect.Location = new System.Drawing.Point(-1, 105);
-            this.lblConect.Name = "lblConect";
-            this.lblConect.Size = new System.Drawing.Size(100, 23);
-            this.lblConect.TabIndex = 2;
-            this.lblConect.Text = "Conectado";
-            this.lblConect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.Location = new System.Drawing.Point(3, 3);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(75, 61);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "1";
+            this.button1.UseVisualStyleBackColor = true;
             // 
-            // lblunheard
+            // button2
             // 
-            this.lblunheard.Location = new System.Drawing.Point(317, 105);
-            this.lblunheard.Name = "lblunheard";
-            this.lblunheard.Size = new System.Drawing.Size(100, 23);
-            this.lblunheard.TabIndex = 3;
-            this.lblunheard.Text = "Ignorado";
-            this.lblunheard.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.Location = new System.Drawing.Point(84, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 61);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // lblBusy
+            // button3
             // 
-            this.lblBusy.Location = new System.Drawing.Point(211, 105);
-            this.lblBusy.Name = "lblBusy";
-            this.lblBusy.Size = new System.Drawing.Size(100, 23);
-            this.lblBusy.TabIndex = 4;
-            this.lblBusy.Text = "Ocupado";
-            this.lblBusy.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(165, 3);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 61);
+            this.button3.TabIndex = 2;
+            this.button3.Text = "3";
+            this.button3.UseVisualStyleBackColor = true;
             // 
-            // lblDisconect
+            // button4
             // 
-            this.lblDisconect.Location = new System.Drawing.Point(105, 105);
-            this.lblDisconect.Name = "lblDisconect";
-            this.lblDisconect.Size = new System.Drawing.Size(100, 23);
-            this.lblDisconect.TabIndex = 5;
-            this.lblDisconect.Text = "Desconectado";
-            this.lblDisconect.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblDisconect.Click += new System.EventHandler(this.label4_Click);
+            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.Location = new System.Drawing.Point(3, 70);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(75, 61);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "4";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.Location = new System.Drawing.Point(84, 70);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(75, 61);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "5";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.Location = new System.Drawing.Point(165, 70);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 61);
+            this.button6.TabIndex = 5;
+            this.button6.Text = "6";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.Location = new System.Drawing.Point(3, 137);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(75, 61);
+            this.button7.TabIndex = 6;
+            this.button7.Text = "7";
+            this.button7.UseVisualStyleBackColor = true;
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.Location = new System.Drawing.Point(84, 137);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(75, 61);
+            this.button8.TabIndex = 7;
+            this.button8.Text = "8";
+            this.button8.UseVisualStyleBackColor = true;
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.Location = new System.Drawing.Point(165, 137);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(75, 61);
+            this.button9.TabIndex = 8;
+            this.button9.Text = "9";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(3, 204);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(75, 61);
+            this.button10.TabIndex = 9;
+            this.button10.Text = "*";
+            this.button10.UseVisualStyleBackColor = true;
+            // 
+            // button11
+            // 
+            this.button11.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.Location = new System.Drawing.Point(84, 204);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(75, 61);
+            this.button11.TabIndex = 10;
+            this.button11.Text = "0";
+            this.button11.UseVisualStyleBackColor = true;
+            // 
+            // button12
+            // 
+            this.button12.Font = new System.Drawing.Font("Microsoft Sans Serif", 40F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.Location = new System.Drawing.Point(165, 204);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(75, 61);
+            this.button12.TabIndex = 11;
+            this.button12.Text = "#";
+            this.button12.UseVisualStyleBackColor = true;
+            // 
+            // flowLayoutPanel2
+            // 
+            this.flowLayoutPanel2.Controls.Add(this.button13);
+            this.flowLayoutPanel2.Controls.Add(this.button14);
+            this.flowLayoutPanel2.Controls.Add(this.button16);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(264, 152);
+            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(155, 195);
+            this.flowLayoutPanel2.TabIndex = 2;
+            // 
+            // button13
+            // 
+            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button13.Location = new System.Drawing.Point(3, 3);
+            this.button13.Name = "button13";
+            this.button13.Size = new System.Drawing.Size(144, 58);
+            this.button13.TabIndex = 0;
+            this.button13.Text = "Llamar";
+            this.button13.UseVisualStyleBackColor = true;
+            // 
+            // button14
+            // 
+            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button14.Location = new System.Drawing.Point(3, 67);
+            this.button14.Name = "button14";
+            this.button14.Size = new System.Drawing.Size(144, 58);
+            this.button14.TabIndex = 1;
+            this.button14.Text = "Colgar";
+            this.button14.UseVisualStyleBackColor = true;
+            // 
+            // button16
+            // 
+            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button16.Location = new System.Drawing.Point(3, 131);
+            this.button16.Name = "button16";
+            this.button16.Size = new System.Drawing.Size(144, 58);
+            this.button16.TabIndex = 3;
+            this.button16.Text = "Conectar";
+            this.button16.UseVisualStyleBackColor = true;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(12, 46);
+            this.textBox1.Location = new System.Drawing.Point(15, 4);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(384, 20);
-            this.textBox1.TabIndex = 6;
-            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.OnlyNumbers);
+            this.textBox1.Size = new System.Drawing.Size(183, 20);
+            this.textBox1.TabIndex = 3;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(528, 156);
+            this.ClientSize = new System.Drawing.Size(423, 427);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.lblDisconect);
-            this.Controls.Add(this.lblBusy);
-            this.Controls.Add(this.lblunheard);
-            this.Controls.Add(this.lblConect);
-            this.Controls.Add(this.btnColgar);
-            this.Controls.Add(this.btnLlamar);
+            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.richTextBox1);
             this.Name = "Form1";
             this.Text = "SoftPhone";
+            this.flowLayoutPanel1.ResumeLayout(false);
+            this.flowLayoutPanel2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -121,12 +267,24 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnLlamar;
-        private System.Windows.Forms.Button btnColgar;
-        private System.Windows.Forms.Label lblConect;
-        private System.Windows.Forms.Label lblunheard;
-        private System.Windows.Forms.Label lblBusy;
-        private System.Windows.Forms.Label lblDisconect;
+        private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button12;
+        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
+        private System.Windows.Forms.Button button13;
+        private System.Windows.Forms.Button button14;
+        private System.Windows.Forms.Button button16;
         private System.Windows.Forms.TextBox textBox1;
     }
 }
