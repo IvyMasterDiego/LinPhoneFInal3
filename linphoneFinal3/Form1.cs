@@ -16,6 +16,7 @@ namespace linphoneFinal3
         Account cuenta;
         Phone telefono;
         bool conectado;
+        bool textonumero = true;
         public Form1()
         {
             InitializeComponent();
@@ -62,7 +63,211 @@ namespace linphoneFinal3
 
             telefono = new Phone(cuenta);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "1";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "1";
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "2";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "2";
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "3";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "3";
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "4";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "4";
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "5";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "5";
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "6";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "6";
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "7";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "7";
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "8";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "8";
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "9";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "9";
+            }
+        }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "*";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "*";
+            }
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "0";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "0";
+            }
+        }
+
+        private void button12_Click(object sender, EventArgs e)
+        {
+            if (textonumero)
+            {
+                Panel.Text = "";
+                Panel.Text = "#";
+                textonumero = false;
+            }
+            else
+            {
+                Panel.Text = Panel.Text + "#";
+            }
+        }
+
+        private void SoloNumero(object sender, KeyPressEventArgs e)
+        {
+            if (Char.IsDigit(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsControl(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else if (Char.IsSeparator(e.KeyChar))
+            {
+                e.Handled = false;
+            }
+            else
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void Borrar(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Form1_Load_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            Panel.Clear();
+        }
     }
 }
+
 
     
