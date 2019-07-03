@@ -1,0 +1,3 @@
+Modificacion del Login y del Main screen
+creacion de las distintas ventanas
+instalar las dependencias directamente en el archivo en el Explorer
