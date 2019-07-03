@@ -231,6 +231,7 @@
             this.Colgar.TabIndex = 1;
             this.Colgar.Text = "Colgar";
             this.Colgar.UseVisualStyleBackColor = true;
+            this.Colgar.Click += new System.EventHandler(this.Colgar_Click);
             // 
             // Conectar
             // 
@@ -249,6 +250,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(183, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
             // 
             // Form1
             // 
