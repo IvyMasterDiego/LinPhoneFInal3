@@ -48,9 +48,17 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <PlatformTarget>x86</PlatformTarget>
+    <OutputPath>bin\x86\Release\</OutputPath>
+  </PropertyGroup>
   <ItemGroup>
-    <Reference Include="sipdotnet">
-      <HintPath>..\..\..\Downloads\sipdotnet-dev\lib\sipdotnet\sipdotnet-win32\sipdotnet.dll</HintPath>
+    <Reference Include="sipdotnet_old">
+      <HintPath>..\..\TRABAJO\libreriallamada\sipdotnet-win32\sipdotnet_old.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />

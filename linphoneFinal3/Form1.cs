@@ -314,7 +314,7 @@ namespace linphoneFinal3
 
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void Limpiar_Click(object sender, EventArgs e)
         {
             Panel.Clear();
         }

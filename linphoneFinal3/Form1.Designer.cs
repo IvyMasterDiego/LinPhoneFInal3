@@ -43,11 +43,11 @@
             this.button11 = new System.Windows.Forms.Button();
             this.button12 = new System.Windows.Forms.Button();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button13 = new System.Windows.Forms.Button();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
+            this.Llamar = new System.Windows.Forms.Button();
+            this.Colgar = new System.Windows.Forms.Button();
+            this.Conectar = new System.Windows.Forms.Button();
+            this.Limpiar = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button15 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.SuspendLayout();
@@ -218,16 +218,15 @@
             // 
             // flowLayoutPanel2
             // 
-            this.flowLayoutPanel2.Controls.Add(this.button13);
-            this.flowLayoutPanel2.Controls.Add(this.button14);
-            this.flowLayoutPanel2.Controls.Add(this.button16);
-            this.flowLayoutPanel2.Controls.Add(this.button15);
+            this.flowLayoutPanel2.Controls.Add(this.Llamar);
+            this.flowLayoutPanel2.Controls.Add(this.Colgar);
+            this.flowLayoutPanel2.Controls.Add(this.Conectar);
+            this.flowLayoutPanel2.Controls.Add(this.Limpiar);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(264, 149);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Size = new System.Drawing.Size(155, 271);
             this.flowLayoutPanel2.TabIndex = 2;
             // 
-<<<<<<< HEAD
             // Llamar
             // 
             this.Llamar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -260,37 +259,17 @@
             this.Conectar.Text = "Conectar";
             this.Conectar.UseVisualStyleBackColor = true;
             this.Conectar.Click += new System.EventHandler(this.Conectar_Click);
-=======
-            // button13
             // 
-            this.button13.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button13.Location = new System.Drawing.Point(3, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(144, 58);
-            this.button13.TabIndex = 0;
-            this.button13.Text = "Llamar";
-            this.button13.UseVisualStyleBackColor = true;
+            // Limpiar
             // 
-            // button14
-            // 
-            this.button14.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button14.Location = new System.Drawing.Point(3, 67);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(144, 58);
-            this.button14.TabIndex = 1;
-            this.button14.Text = "Colgar";
-            this.button14.UseVisualStyleBackColor = true;
-            // 
-            // button16
-            // 
-            this.button16.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button16.Location = new System.Drawing.Point(3, 131);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(144, 58);
-            this.button16.TabIndex = 3;
-            this.button16.Text = "Conectar";
-            this.button16.UseVisualStyleBackColor = true;
->>>>>>> b6f7e83f6989f90b1f7ee0080905760d0f0d737b
+            this.Limpiar.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Limpiar.Location = new System.Drawing.Point(3, 195);
+            this.Limpiar.Name = "Limpiar";
+            this.Limpiar.Size = new System.Drawing.Size(144, 58);
+            this.Limpiar.TabIndex = 4;
+            this.Limpiar.Text = "Limpiar";
+            this.Limpiar.UseVisualStyleBackColor = true;
+            this.Limpiar.Click += new System.EventHandler(this.Limpiar_Click);
             // 
             // textBox1
             // 
@@ -299,17 +278,6 @@
             this.textBox1.Size = new System.Drawing.Size(183, 20);
             this.textBox1.TabIndex = 3;
             this.textBox1.TextChanged += new System.EventHandler(this.TextBox1_TextChanged);
-            // 
-            // button15
-            // 
-            this.button15.Font = new System.Drawing.Font("Microsoft Sans Serif", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.Location = new System.Drawing.Point(3, 195);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(144, 58);
-            this.button15.TabIndex = 4;
-            this.button15.Text = "Limpiar";
-            this.button15.UseVisualStyleBackColor = true;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
             // 
             // Form1
             // 
@@ -347,11 +315,11 @@
         private System.Windows.Forms.Button button11;
         private System.Windows.Forms.Button button12;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button16;
+        private System.Windows.Forms.Button Llamar;
+        private System.Windows.Forms.Button Colgar;
+        private System.Windows.Forms.Button Conectar;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button15;
+        private System.Windows.Forms.Button Limpiar;
     }
 }
 

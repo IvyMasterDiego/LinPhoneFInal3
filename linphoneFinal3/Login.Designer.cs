@@ -62,6 +62,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(198, 20);
             this.textBox1.TabIndex = 2;
+            this.textBox1.Text = "240";
             // 
             // textBox2
             // 
@@ -69,6 +70,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(198, 20);
             this.textBox2.TabIndex = 3;
+            this.textBox2.Text = "240";
             // 
             // button1
             // 
@@ -95,6 +97,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(198, 20);
             this.textBox3.TabIndex = 7;
+            this.textBox3.Text = "192.168.1.37";
             // 
             // Login
             // 
